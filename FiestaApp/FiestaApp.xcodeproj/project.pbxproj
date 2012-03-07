@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0AFA6A114FC23A500D57D58 /* FiestaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFA6A014FC23A500D57D58 /* FiestaEvent.m */; };
+		C0AFA6A514FC2AC600D57D58 /* EventPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFA6A414FC2AC600D57D58 /* EventPage.m */; };
+		F47D7E3E14F4937C00360F70 /* UITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47D7E3D14F4937C00360F70 /* UITableViewController.xib */; };
+		F47D7E4314F49B6000360F70 /* AddEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D7E4114F49B6000360F70 /* AddEvent.m */; };
+		F47D7E4414F49B6000360F70 /* AddEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47D7E4214F49B6000360F70 /* AddEvent.xib */; };
 		F487169B14E794B3004FAB70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487169A14E794B3004FAB70 /* UIKit.framework */; };
 		F487169D14E794B3004FAB70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487169C14E794B3004FAB70 /* Foundation.framework */; };
 		F487169F14E794B3004FAB70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487169E14E794B3004FAB70 /* CoreGraphics.framework */; };
@@ -19,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0AFA69F14FC23A500D57D58 /* FiestaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiestaEvent.h; sourceTree = "<group>"; };
+		C0AFA6A014FC23A500D57D58 /* FiestaEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiestaEvent.m; sourceTree = "<group>"; };
+		C0AFA6A314FC2AC600D57D58 /* EventPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPage.h; sourceTree = "<group>"; };
+		C0AFA6A414FC2AC600D57D58 /* EventPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPage.m; sourceTree = "<group>"; };
+		F47D7E3D14F4937C00360F70 /* UITableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewController.xib; sourceTree = "<group>"; };
+		F47D7E4014F49B6000360F70 /* AddEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEvent.h; sourceTree = "<group>"; };
+		F47D7E4114F49B6000360F70 /* AddEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEvent.m; sourceTree = "<group>"; };
+		F47D7E4214F49B6000360F70 /* AddEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEvent.xib; sourceTree = "<group>"; };
 		F487169614E794B3004FAB70 /* FiestaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiestaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F487169A14E794B3004FAB70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F487169C14E794B3004FAB70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,9 +96,17 @@
 				F48716A914E794B3004FAB70 /* MenuViewAppDelegate.h */,
 				F48716AA14E794B3004FAB70 /* MenuViewAppDelegate.m */,
 				F48716AC14E794B3004FAB70 /* MainStoryboard.storyboard */,
+				C0AFA6A314FC2AC600D57D58 /* EventPage.h */,
+				C0AFA6A414FC2AC600D57D58 /* EventPage.m */,
+				F47D7E3D14F4937C00360F70 /* UITableViewController.xib */,
 				F48716B714E794CE004FAB70 /* MenuView.h */,
 				F48716B814E794CE004FAB70 /* MenuView.m */,
 				F48716AF14E794B3004FAB70 /* MenuViewViewController.h */,
+				F47D7E4014F49B6000360F70 /* AddEvent.h */,
+				F47D7E4114F49B6000360F70 /* AddEvent.m */,
+				C0AFA69F14FC23A500D57D58 /* FiestaEvent.h */,
+				C0AFA6A014FC23A500D57D58 /* FiestaEvent.m */,
+				F47D7E4214F49B6000360F70 /* AddEvent.xib */,
 				F48716B014E794B3004FAB70 /* MenuViewViewController.m */,
 				F48716A114E794B3004FAB70 /* Supporting Files */,
 			);
@@ -156,6 +177,8 @@
 			files = (
 				F48716A514E794B3004FAB70 /* InfoPlist.strings in Resources */,
 				F48716AE14E794B3004FAB70 /* MainStoryboard.storyboard in Resources */,
+				F47D7E3E14F4937C00360F70 /* UITableViewController.xib in Resources */,
+				F47D7E4414F49B6000360F70 /* AddEvent.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +193,9 @@
 				F48716AB14E794B3004FAB70 /* MenuViewAppDelegate.m in Sources */,
 				F48716B114E794B3004FAB70 /* MenuViewViewController.m in Sources */,
 				F48716B914E794CE004FAB70 /* MenuView.m in Sources */,
+				F47D7E4314F49B6000360F70 /* AddEvent.m in Sources */,
+				C0AFA6A114FC23A500D57D58 /* FiestaEvent.m in Sources */,
+				C0AFA6A514FC2AC600D57D58 /* EventPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +307,7 @@
 				F48716B614E794B3004FAB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
