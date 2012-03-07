@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0A012561506F61B00173148 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A012551506F61B00173148 /* Parse.framework */; };
+		C0A012591506F67600173148 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A012581506F67600173148 /* AudioToolbox.framework */; };
+		C0A0125B1506F68800173148 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0125A1506F68800173148 /* CFNetwork.framework */; };
+		C0A0125D1506F69200173148 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0125C1506F69200173148 /* SystemConfiguration.framework */; };
+		C0A012621506F6C000173148 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0125E1506F6C000173148 /* libz.1.1.3.dylib */; };
+		C0A012631506F6C000173148 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0125F1506F6C000173148 /* MobileCoreServices.framework */; };
+		C0A012641506F6C000173148 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A012601506F6C000173148 /* QuartzCore.framework */; };
+		C0A012651506F6C000173148 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A012611506F6C000173148 /* Security.framework */; };
 		C0AFA6A114FC23A500D57D58 /* FiestaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFA6A014FC23A500D57D58 /* FiestaEvent.m */; };
 		C0AFA6A514FC2AC600D57D58 /* EventPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AFA6A414FC2AC600D57D58 /* EventPage.m */; };
 		F47D7E3E14F4937C00360F70 /* UITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47D7E3D14F4937C00360F70 /* UITableViewController.xib */; };
@@ -24,6 +32,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0A012551506F61B00173148 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C0A012581506F67600173148 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C0A0125A1506F68800173148 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C0A0125C1506F69200173148 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0A0125E1506F6C000173148 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		C0A0125F1506F6C000173148 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C0A012601506F6C000173148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0A012611506F6C000173148 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C0AFA69F14FC23A500D57D58 /* FiestaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiestaEvent.h; sourceTree = "<group>"; };
 		C0AFA6A014FC23A500D57D58 /* FiestaEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiestaEvent.m; sourceTree = "<group>"; };
 		C0AFA6A314FC2AC600D57D58 /* EventPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPage.h; sourceTree = "<group>"; };
@@ -54,9 +70,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A012621506F6C000173148 /* libz.1.1.3.dylib in Frameworks */,
+				C0A012631506F6C000173148 /* MobileCoreServices.framework in Frameworks */,
+				C0A012641506F6C000173148 /* QuartzCore.framework in Frameworks */,
+				C0A012651506F6C000173148 /* Security.framework in Frameworks */,
+				F487169F14E794B3004FAB70 /* CoreGraphics.framework in Frameworks */,
+				C0A0125D1506F69200173148 /* SystemConfiguration.framework in Frameworks */,
+				C0A0125B1506F68800173148 /* CFNetwork.framework in Frameworks */,
+				C0A012591506F67600173148 /* AudioToolbox.framework in Frameworks */,
 				F487169B14E794B3004FAB70 /* UIKit.framework in Frameworks */,
 				F487169D14E794B3004FAB70 /* Foundation.framework in Frameworks */,
-				F487169F14E794B3004FAB70 /* CoreGraphics.framework in Frameworks */,
+				C0A012561506F61B00173148 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +90,13 @@
 		F487168B14E794B3004FAB70 = {
 			isa = PBXGroup;
 			children = (
+				C0A0125E1506F6C000173148 /* libz.1.1.3.dylib */,
+				C0A0125F1506F6C000173148 /* MobileCoreServices.framework */,
+				C0A012601506F6C000173148 /* QuartzCore.framework */,
+				C0A012611506F6C000173148 /* Security.framework */,
+				C0A0125C1506F69200173148 /* SystemConfiguration.framework */,
+				C0A0125A1506F68800173148 /* CFNetwork.framework */,
+				C0A012581506F67600173148 /* AudioToolbox.framework */,
 				F48716A014E794B3004FAB70 /* FiestaApp */,
 				F487169914E794B3004FAB70 /* Frameworks */,
 				F487169714E794B3004FAB70 /* Products */,
@@ -83,6 +114,7 @@
 		F487169914E794B3004FAB70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0A012551506F61B00173148 /* Parse.framework */,
 				F487169A14E794B3004FAB70 /* UIKit.framework */,
 				F487169C14E794B3004FAB70 /* Foundation.framework */,
 				F487169E14E794B3004FAB70 /* CoreGraphics.framework */,
@@ -269,6 +301,10 @@
 		F48716B514E794B3004FAB70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiestaApp/FiestaApp-Prefix.pch";
 				INFOPLIST_FILE = "FiestaApp/FiestaApp-Info.plist";
@@ -280,6 +316,10 @@
 		F48716B614E794B3004FAB70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiestaApp/FiestaApp-Prefix.pch";
 				INFOPLIST_FILE = "FiestaApp/FiestaApp-Info.plist";
